@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill-Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Bill-Splitter</h1>
+        <p>Heyy!! Came to dinner with your Friends !! want to share the bill...please! Use me</p>
+        <div class="people-container">
+            <label for="No-of-people">
+                Enter How Many Friends!!
+            </label>
+            <input type="text" placeholder="" id="No-of-people" class="people" required>
+        </div>
+        <div class="money-container">
+            <label for="bill">
+                Enter bill amount
+            </label>
+            <input type="text" placeholder="" id="bill" class="money" required>
+        </div>
+        <p>Want to add tip to the waiter!</p>
+        <div class="btn">
+            <button type="submit" class="btns yes">Yes!!</button>
+        <button type="submit" class="btns no">No!</button>
+        </div>
+    </div>
+    <div class="sub-main-container">
+        <div class="tip-container">
+            <h2>Grate!!</h2>
+        <div class="money-container">
+            <label for="tip01">
+                Enter tip amount from 10/- to 500/-
+            </label>
+            <input type="text" placeholder="" id="tip01" class="money tip">
+        </div>
+        </div>
+        <div class="total-container">
+            <button class="btns cal">Calculate!!</button>
+            <p class="scriptOp"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

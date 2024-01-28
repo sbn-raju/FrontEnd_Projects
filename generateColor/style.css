@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+   
+}
+div{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
