@@ -48,7 +48,12 @@ These instructions will get you a copy of the project up and running on your loc
 If you'd like to contribute to this project, please follow these guidelines:
 
 -Fork the repository.
+<br>
 -Create a new branch for your feature (git checkout -b feature-name).
+<br>
 -Commit your changes (git commit -am 'Add new feature').
+<br>
 -Push to the branch (git push origin feature-name).
+<br>
 -Create a new Pull Request.
+<br>
