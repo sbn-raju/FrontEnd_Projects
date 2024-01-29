@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Area And perimeter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Area and Perimeter Calculator</h1>
+            </nav>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="container">
+                    <select name="Operations" id="operations">
+                        <option value="" selected disabled>Choose... your operation</option>
+                        <option value="Area">Area</option>
+                        <option value="Perimeter">Perimeter</option>
+                        <option value="Volume">Volume</option>
+                    </select>
+                    <select name="figure" id="figure">
+                        <option value="" selected disabled>Choose... your Figure</option>
+                        <option value="Rectangle">Rectangle</option>
+                        <option value="Square">Square</option>
+                        <option value="Triangle">Triangle</option>
+                        <option value="Circle">Circle</option>
+                        <option value="Cube">Cube</option>
+                        <option value="Cuboid">Cuboid</option>
+                        <option value="Sphere">Sphere</option>
+                        <option value="Cone">Cone</option>
+                    </select>
+                    <button class="btns submit">Submit</button>
+                </div>
+                <div class="visiblity">
+                    <input type="number" name="Length" id="length" placeholder="Enter your Length">
+                    <input type="number" name="Breath" id="breath" placeholder="Enter your Breath">
+                    <button class="btns calculate">Calculater</button>
+                </div>
+                <div class="visiblityVolume">
+                    <input type="number" name="Volume" id="volume" placeholder="Enter your length Side">
+                    <button class="btns calculate">Calculater</button>
+                </div>
+                <div class="visiblityVolume">
+                    <input type="number" name="Volume" id="volume" placeholder="Enter your length Side">
+                    <button class="btns calculate">Calculater</button>
+                </div>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+    </html>
