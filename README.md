@@ -32,6 +32,8 @@ This repository contains a collection of small front-end projects aimed at helpi
 10.Tic-Tac-Toe Game: A simple tic-tac-toe game.
 -Description: Users can play the classic tic-tac-toe game against the computer or another player.
 <br>
+11.Change Background Color:A background changing game.
+-Description: Users can click the their desired color button for changing the background color.
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
